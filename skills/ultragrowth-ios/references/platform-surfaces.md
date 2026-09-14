@@ -9,36 +9,68 @@ what can be argued from Apple's own documentation, which is more useful.
 An earlier version of this skill said: if you build one thing, build the
 widget. That was overclaimed and here is the correction.
 
-- **There is no iOS widget retention study.** Apple has never published
-  an adoption or retention number. RevenueCat's State of Subscription
-  Apps, 2023 through 2026, contains nothing on widgets at all.
-- **The only real case study is Android**: Google's DevRel wrote up
+- **There is still no iOS widget retention study.** Apple has never
+  published a retention number. RevenueCat's State of Subscription Apps,
+  2023 through 2026, contains nothing on widgets at all. No named iOS
+  developer has published retention for widget users against non-widget
+  users.
+- **The only retention case study is Android**: Google's DevRel wrote up
   Gratitude at **25% higher retention for widget users**, with **10% of
   DAU adopting the widget**. It is correlational with no holdout, and the
   10% is the more useful figure because it bounds the ceiling.
-- **Adoption is genuinely low.** A TidBITS reader poll, which is a sample
-  of Apple enthusiasts and therefore an upper bound, found only **14% use
-  iPhone widgets heavily**, and "don't use" was the single most common
-  answer for the Home Screen, the Lock Screen and Today View alike.
+- **Adoption for an ordinary app is low.** A TidBITS reader poll, which
+  is a sample of Apple enthusiasts and therefore an upper bound, found
+  only **14% use iPhone widgets heavily**, and "don't use" was the single
+  most common answer for the Home Screen, the Lock Screen and Today View
+  alike.
+- **Adoption for a widget-first app is a different number entirely.**
+  Glow, an affirmations app whose own framing is "what if the widget is
+  the app", published **80.7% of users installing at least one widget**.
+  Self-reported, no sample size, and a ceiling rather than a benchmark.
+  The gap between 14% and 80.7% is the whole point: **adoption is a
+  function of whether the widget carries the value, not of whether you
+  shipped one.**
 
 So: a widget is worth building, and the reason is not a retention
 percentage. It is that a widget is one of very few ways to be present
-without being opened, and for a visual app it is the artefact loop. Build
-it for the 10 to 14% who will use it, and accept that it is a minority.
+without being opened, and for a visual app it is the artefact loop. If
+the widget is incidental, build it for the 10 to 14% who will use it and
+accept that it is a minority. If the widget can be where the value
+actually lives, the ceiling is far higher, and that is the play worth
+choosing deliberately.
 
 Every number you will find asserting otherwise is in
 `numbers-that-are-not-real.md`, because several of them are invented.
 
 ## The measurement problem, which explains the absence
 
-App Store Connect Analytics has **no widget-install dimension, no
-share-extension-source dimension, no Spotlight-origin dimension and no
-control-adoption dimension.** `WidgetCenter.getCurrentConfigurations` is
-the only first-party measurement hook on the whole platform.
+App Store Connect Analytics has **no share-extension-source dimension, no
+Spotlight-origin dimension and no control-adoption dimension.**
+`ControlCenter.currentControls()` reports only to the owning app, so
+control adoption is unknowable across apps by construction.
 
-That is why there is no data: not because these surfaces do not work, but
-because almost nobody can see whether they do. **Argue them from
-documented mechanism, never from a retention percentage.**
+**Widgets are the exception, and this corrects an earlier version of this
+file.** Apple ships a **Home Screen Widget Installs** analytics report,
+with data available from iOS 17.4, alongside
+`WidgetCenter.getCurrentConfigurations`. So widget adoption *is*
+measurable, and every developer shipping a widget can see their own
+number.
+
+Almost none publish it. Two do: Glow at **80.7% of users installing at
+least one widget**, which is a widget-first app and therefore a ceiling
+case, and Overcast at **over 10,000 configured widgets** two weeks after
+shipping, with no denominator given. Nobody has published a retention
+comparison at all.
+
+Note also that the "~10%" widget figure attributed to Apple is not a
+statistic. It is boilerplate arithmetic in that report's documentation,
+where 10 and 100 are placeholder device counts, and the identical
+sentence appears on unrelated report pages.
+
+So for the other surfaces there is no data because almost nobody can see
+whether they work. For widgets there is no data because almost nobody
+says. **Argue all of them from documented mechanism, never from a
+retention percentage.**
 
 ## The honest argument for all of them
 
