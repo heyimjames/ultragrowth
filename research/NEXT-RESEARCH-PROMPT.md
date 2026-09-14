@@ -87,6 +87,48 @@ practice, the two-ads-per-query change, anything about apps being removed
 for inactivity. Prefer Apple's own words and developers' observed
 effects.
 
+## What blocked us, so you do not rediscover it
+
+Two passes hit these walls. If you have a browser, a paid account, or a
+transcription tool, you can get past several of them, and that is most of
+the remaining value in this brief.
+
+**Hard-blocked to automated fetching:**
+
+| Source | What happened |
+| --- | --- |
+| `relay.fm` | 403 to fetchers. Hosts Under the Radar, the likeliest single home for indie widget numbers |
+| `launched.fm` | Connection refused |
+| `david-smith.org` | 403. David Smith ships more widgets than almost anybody and has published 131M lifetime downloads but no widget figure |
+| `jordibruin.com` | Connection refused |
+| Apple Podcasts episode pages | 404 to fetchers |
+
+**Never attempted, because we could not:**
+
+- **Podcast audio itself.** Every finding so far came from show-note
+  writeups, which are summaries written by the host's marketing, not
+  transcripts. The numbers developers say out loud in interviews are, as
+  far as we can tell, the largest untapped source in this whole field.
+  If you can transcribe, start with Under the Radar and Launched.
+- **Paywalled newsletters.** Sub Club members' posts, Mobile Dev Memo's
+  paid tier, Appfigures' subscriber data.
+- **Conference talk video.** Deep Dish Swift, iOSDevUK, NSSpain, Swift
+  Island, Do iOS. Slides sometimes carry numbers that never make it into
+  a blog post.
+- **Private communities.** iOS Folks, Indie Dev Slack, the RevenueCat
+  and Superwall Slacks. Numbers get posted there that are never published
+  anywhere public. Obviously do not scrape them; but if you are a member,
+  it is the place to ask.
+- **Just asking.** No pass has tried simply emailing or posting to a
+  developer and asking "what share of your users have the widget
+  installed?" For a question nobody has answered publicly, that may well
+  be cheaper than any amount of searching.
+
+**One budget note:** the second pass exhausted its web-search allowance
+and finished on direct URL fetches only, which meant discovery stopped
+and it could only follow links it already had. If your tooling has a
+similar cap, spend it on discovery early and leave fetching until last.
+
 ## Output
 
 Markdown. One section per topic above. Within each, bullets where every
