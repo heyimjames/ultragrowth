@@ -28,6 +28,13 @@ $16B of revenue.
 
 Do not subscribe a calculator.
 
+## The mechanics are in in-app-growth.md
+
+Placement, annual-first ordering, showing the price, restore purchases,
+win-back offers and offer codes all live in
+`references/in-app-growth.md`. This file is the strategy: what model, at
+what price, for what shape of product.
+
 ## Paywall placement
 
 Let people reach the value, then ask. "Show value, then ask for

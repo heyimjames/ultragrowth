@@ -61,6 +61,26 @@ Numbers rather than vibes. Every benchmark is cited:
 That last one is the whole argument. Being good is table stakes now.
 Being *findable* is the work.
 
+## The loop a utility actually has
+
+The usual conclusion about non-social apps is that they have no growth
+loop and must buy every user forever. That is wrong, and the correction
+is the most useful idea in the skill:
+
+> **A utility's loop is not an invitation. It is an artefact.**
+>
+> The app makes something that leaves the app, and that thing is seen by
+> somebody who does not have the app.
+
+A widget on a Home Screen is seen by everybody who looks at that phone,
+and it costs the user nothing, because the distribution is a side effect
+of the product working. An export that carries its origin. A shared link
+that renders something real for somebody who has installed nothing.
+
+Which is also why the advice is: build the widget, and make it look like
+nothing else. A widget that looks like every other widget is not an
+artefact, it is furniture.
+
 ## And the half nobody writes down
 
 Every ASO guide tells you what to put in the fields. None of them mention

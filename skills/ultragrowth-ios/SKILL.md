@@ -174,6 +174,46 @@ somebody sends a colleague.
 
 ---
 
+## THE LOOP A UTILITY ACTUALLY HAS
+
+A social app grows because using it requires other people. A utility has
+no such requirement, which is why the usual conclusion is that utilities
+have no loop and must buy every user forever.
+
+That is wrong, and the correction is the most useful idea in this skill:
+
+> **A utility's loop is not an invitation. It is an artefact.**
+>
+> The app makes something that leaves the app, and that thing is seen by
+> somebody who does not have the app.
+
+Five of them, in rough order of value:
+
+| Loop | What it is |
+| --- | --- |
+| **The visible surface** | A widget, a Lock Screen, a wallpaper, a Watch face. Seen by everybody who looks at that device, and it costs the user nothing because the distribution is a side effect of the product working |
+| **The export** | Anything the app makes that can be sent, and whether it carries its origin when it travels |
+| **The link that works without the app** | A shared link that renders something real for somebody who has installed nothing is worth an order of magnitude more than one that opens the store |
+| **The multiplayer edge** | The single place a second person is natural. Usually small, usually the only loop the product has |
+| **The other device** | The same person on a Mac and a Watch. Not new revenue, but retention that looks like growth and it seeds the visible surface elsewhere |
+
+If your app produces nothing anybody else ever sees, you do not have a
+loop. Stop looking for one and go and be very good at search instead.
+
+The whole of this, plus activation, paywall mechanics and retention
+without nagging, is in `references/in-app-growth.md`.
+
+### Activation: the number most small apps never define
+
+Between "downloaded" and "user" there is a specific event. Write the
+sentence: **"Somebody is a real user once they have ______, at least
+once."** Scanned a document. Written on the board. Got a result.
+
+Measure the share of installs that reach it in the first session. That
+number, not downloads, is what onboarding is for. And nothing may stand
+between the install and it: not a sign-up, not a permission you do not
+need yet, not a paywall, not a tour.
+
 ## PRICING, WITH THE CURRENT NUMBERS
 
 From RevenueCat's 2026 report across **115,000 apps and $16B** of revenue:
@@ -253,8 +293,11 @@ In order, for an app that is already built and not growing:
 4. **Ratings prompt** moved to a moment of success
 5. **One custom product page** per reason people want it
 6. **Product Page Optimization** turned on, which is free
-7. **A widget**, if the app has anything worth glancing at
-8. **Pitch Apple editorial** on the next release
+7. **A widget**, and make it distinctive rather than merely useful. It is
+   both the best retention surface Apple ships and, for most utilities,
+   the only growth loop available
+8. **Name the activation event** and measure how many installs reach it
+9. **Pitch Apple editorial** on the next release
 
 Most of that is an afternoon, and most apps have done none of it while
 worrying about a viral loop they were never going to have.
@@ -269,6 +312,7 @@ worrying about a viral loop they were never going to have.
 | Actually changing the listing, and why you cannot | `references/operating-the-listing.md` |
 | Product page, screenshots, CPPs, PPO | `references/product-page.md` |
 | Pricing, paywalls, trials | `references/pricing.md` |
+| Loops, activation, paywall mechanics, retention | `references/in-app-growth.md` |
 
 ## SOURCES
 
