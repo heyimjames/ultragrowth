@@ -288,10 +288,17 @@ Numbers worth arguing with rather than treating as targets:
 **Paid acquisition, for most small apps, does not clear.** Median revenue
 per install across subscription apps is $0.23 at day 14 and $0.34 at day
 60. Median US cost per install on Search Ads is $2.90 for Utilities and
-$3.83 for Health and Fitness. A median app buying installs recovers about
-a quarter of what it spends in the first year. Search Ads clears with a
-hard paywall, a high price, or unusually good retention, and otherwise it
-does not, and no amount of campaign tuning fixes an order of magnitude.
+$3.83 for Health and Fitness. A median app recovers about a quarter of
+what it spends in the first year.
+
+And the firsthand accounts point somewhere else entirely. Of the indie
+apps that have published real numbers, **not one grew through Apple
+Search Ads.** One spent $100 and abandoned the channel. Another hit **a
+$0.80 cost per install on Meta against a $4 thirty-day LTV**, which is a
+fifth of what Search Ads charges for the same category. Two firsthand
+non-social accounts, both pointing away from Apple's own ad product as an
+indie's first paid channel, against a vendor benchmark literature that
+exists to sell campaign management. See `references/what-actually-worked.md`.
 
 **A feature is a spike in downloads, not in users.** The best firsthand
 account, Slopes as App of the Day, is 19,000 downloads in a day against
@@ -309,10 +316,13 @@ In order, for an app that is already built and not growing:
 4. **Ratings prompt** moved to a moment of success
 5. **One custom product page** per reason people want it
 6. **Product Page Optimization** turned on, which is free
-7. **A widget**, distinctive rather than merely useful. Not because of a
-   retention statistic, since none exists for iOS, but because it is one
-   of the few ways to be present without being opened, and because about
-   half your users will never grant push
+7. **A widget**, distinctive rather than merely useful. Not for a
+   retention statistic, since no iOS one exists, but because it is one of
+   the few ways to be present without being opened and about half your
+   users will never grant push. Note also that the commercially proven
+   widget play is **the widget as the product**, not the widget as a
+   retention feature: one developer runs a portfolio of sixty-three apps,
+   several of which are simply widgets people buy
 8. **Name the activation event** and measure how many installs reach it
 9. **Pitch Apple editorial** on the next release
 
@@ -333,6 +343,8 @@ worrying about a viral loop they were never going to have.
 | Widgets, Live Activities, App Intents, Controls | `references/platform-surfaces.md` |
 | Search Ads arithmetic, and getting featured | `references/paid-acquisition-and-editorial.md` |
 | Statistics in this field that are invented | `references/numbers-that-are-not-real.md` |
+| Firsthand results, with the developers' own numbers | `references/what-actually-worked.md` |
+| What nobody has measured, and the gaps to respect | `references/what-nobody-has-measured.md` |
 
 ## HOW TO READ A NUMBER IN THIS FIELD
 

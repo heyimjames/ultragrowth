@@ -116,6 +116,28 @@ shape you have before answering. Or invoke it directly:
 It is most useful pointed at a real listing: give it your App Store ID
 and ask what is wrong.
 
+## It says what nobody has measured, too
+
+Two research passes went looking for firsthand numbers on the things this
+skill recommends. Three came back empty, and the emptiness is in the
+skill, because the alternative is quoting something invented.
+
+**No named iOS developer has ever published a widget number.** Not
+adoption, not retention. Checked against close to the complete set of
+indies who publish numbers at all. The sharpest version: one of them
+published a full public analytics post, monthly actives, daily actives,
+Mac session share, OS spread, and said nothing about widgets, despite
+shipping them since iOS 14.
+
+**Nobody has published a share-sheet or export-to-install number**, and
+that one is structurally unmeasurable: App Store Connect has no
+share-extension-source dimension, so nobody can see it even if they want
+to.
+
+**No developer has published their own Custom Product Page result.**
+Every figure in circulation, including the ones in this skill, is
+published by a vendor.
+
 ## It also tells you which numbers are made up
 
 App-growth writing is an SEO battleground and a lot of its statistics are

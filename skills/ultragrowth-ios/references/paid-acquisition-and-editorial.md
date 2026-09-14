@@ -31,6 +31,20 @@ hard paywall, a high price point, or unusually good retention. If you are
 median on monetisation, it does not clear, and no amount of campaign
 tuning fixes an order of magnitude.
 
+### And the firsthand accounts agree
+
+Of the indie developers who have published real numbers, **none grew
+through Apple Search Ads.** Sequel spent $100 and left. Shot Pattern
+reached over $1,000,000 in total sales on **Meta at $0.80 a install
+against a $4 thirty-day LTV**, which is roughly a fifth of what Search
+Ads charges for Utilities.
+
+Two firsthand non-social data points, both pointing away from Apple's own
+ad product, against a benchmark literature published by companies that
+sell campaign management. That does not mean Search Ads never works. It
+means the burden of proof is on it, for a small app, and that Meta with
+deliberately unpolished creative is the comparison worth running first.
+
 ### If you do run it
 
 - **Search results is the only placement worth a small budget.** Tap
@@ -99,6 +113,26 @@ story, not technology. Apple *does* say novel use of its technologies
 matters, but it says it about the **Apple Design Awards**, which is a
 different programme with different judges. Do not ship a widget to get
 featured. Ship it because it is useful.
+
+### The framework-adoption question
+
+There is a live disagreement worth knowing about. Apple's published
+criteria name no framework. But **David Barnard argues that adopting new
+Apple technologies makes you more likely to win a Design Award and to
+appear in personalised App Store collections**, and that as Siri becomes
+primary navigation apps that do not adopt may become "completely
+invisible". Charlie Chapman puts it harder on App Intents: "it is going
+to be a total requirement."
+
+The honest reconciliation: they are talking about **awards, collections
+and future discoverability**, which is a different thing from routine
+editorial featuring, where Apple's stated criteria really do not mention
+technology. Both can be true.
+
+Related, from the same source: Apple has said apps face removal if "not
+finding success and not being updated regularly", aimed at timer apps and
+limited-utility copycats. Shipping something once and leaving it is now a
+risk to its existence, not only to its ranking.
 
 ### What nobody can tell you
 

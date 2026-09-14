@@ -66,6 +66,17 @@ between how confidently it is discussed and how little is known.
   27 were explained by existing metadata, 1 was unexplained. Confirmed
   Apple use of screenshots is **tag generation**, not keyword ranking.
 
+## Cited for things they do not say
+
+- **"Slopes Diaries #19: App Store Review Replies"** is linked constantly
+  as evidence that replying to reviews works. It is entirely qualitative.
+  The only number in it is "around 700 reviews". No rating change, no
+  reply count, no outcome.
+- **Focus Friend reaching number one** is cited as proof of organic
+  virality. It was a creator partnership: 20,000 downloads in week one
+  from a Hank Green community post. A real and repeatable strategy, and
+  not the one it is being used to evidence.
+
 ## Where credible sources simply disagree
 
 Not errors. Genuine spread, usually mean versus median or category mix.
