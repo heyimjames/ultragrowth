@@ -116,6 +116,24 @@ shape you have before answering. Or invoke it directly:
 It is most useful pointed at a real listing: give it your App Store ID
 and ask what is wrong.
 
+## It also tells you which numbers are made up
+
+App-growth writing is an SEO battleground and a lot of its statistics are
+laundered. One reference file exists only to list the ones that were
+chased to their supposed source and are not there: "widget users have 15%
+higher retention" (the cited page contains no figures at all), "0.3%
+Spotlight click-through" attributed to a company whose two posts on the
+subject contain no statistics, "apps need 4.5 stars to be featured",
+which Apple has never said.
+
+It also separates those from numbers that are real but far weaker than
+their reputation, and from places where credible sources simply disagree
+by a factor of two.
+
+The habit it argues for: before planning around a number, find the
+primary source, check the sample and the year, and check whether whoever
+published it sells the thing the number recommends.
+
 ## Sources
 
 - Brian Balfour, [*Four Fits for $100M+ Growth*](https://brianbalfour.com/four-fits-growth-framework)

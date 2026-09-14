@@ -38,8 +38,13 @@ a phone is looked at by other people constantly.
 - Design the widget to be *recognised*, not merely to be useful. Somebody
   has to be able to ask "what is that".
 
-If you build one thing from this file, build the widget, and make it look
-like nothing else.
+Build the widget, and make it look like nothing else. But be honest about
+the size of the prize: **there is no iOS widget retention study at all**,
+Apple has never published an adoption number, and the best reader survey
+available found only about 14% use widgets heavily. The reason to build
+one is not a retention percentage, it is that it is one of very few ways
+to be present without being opened. See `platform-surfaces.md`, including
+the several invented statistics circulating on this exact topic.
 
 ### 2. The export
 

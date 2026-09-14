@@ -191,7 +191,7 @@ Five of them, in rough order of value:
 
 | Loop | What it is |
 | --- | --- |
-| **The visible surface** | A widget, a Lock Screen, a wallpaper, a Watch face. Seen by everybody who looks at that device, and it costs the user nothing because the distribution is a side effect of the product working |
+| **The visible surface** | A widget, a Lock Screen, a wallpaper, a Watch face. Seen by everybody who looks at that device, and it costs the user nothing because the distribution is a side effect of the product working. Adoption is a minority, perhaps 10 to 15%; build it for them |
 | **The export** | Anything the app makes that can be sent, and whether it carries its origin when it travels |
 | **The link that works without the app** | A shared link that renders something real for somebody who has installed nothing is worth an order of magnitude more than one that opens the store |
 | **The multiplayer edge** | The single place a second person is natural. Usually small, usually the only loop the product has |
@@ -283,6 +283,22 @@ Numbers worth arguing with rather than treating as targets:
 
 ---
 
+## TWO NUMBERS THAT DECIDE THINGS
+
+**Paid acquisition, for most small apps, does not clear.** Median revenue
+per install across subscription apps is $0.23 at day 14 and $0.34 at day
+60. Median US cost per install on Search Ads is $2.90 for Utilities and
+$3.83 for Health and Fitness. A median app buying installs recovers about
+a quarter of what it spends in the first year. Search Ads clears with a
+hard paywall, a high price, or unusually good retention, and otherwise it
+does not, and no amount of campaign tuning fixes an order of magnitude.
+
+**A feature is a spike in downloads, not in users.** The best firsthand
+account, Slopes as App of the Day, is 19,000 downloads in a day against
+120,000 in the entire preceding year. **Only about 5,500 of those 19,000
+ever launched the app.** If your first run cannot turn a curious tap into
+an activation, a once-in-a-lifetime event becomes a rounding error.
+
 ## WHAT TO DO FIRST
 
 In order, for an app that is already built and not growing:
@@ -293,9 +309,10 @@ In order, for an app that is already built and not growing:
 4. **Ratings prompt** moved to a moment of success
 5. **One custom product page** per reason people want it
 6. **Product Page Optimization** turned on, which is free
-7. **A widget**, and make it distinctive rather than merely useful. It is
-   both the best retention surface Apple ships and, for most utilities,
-   the only growth loop available
+7. **A widget**, distinctive rather than merely useful. Not because of a
+   retention statistic, since none exists for iOS, but because it is one
+   of the few ways to be present without being opened, and because about
+   half your users will never grant push
 8. **Name the activation event** and measure how many installs reach it
 9. **Pitch Apple editorial** on the next release
 
@@ -313,6 +330,22 @@ worrying about a viral loop they were never going to have.
 | Product page, screenshots, CPPs, PPO | `references/product-page.md` |
 | Pricing, paywalls, trials | `references/pricing.md` |
 | Loops, activation, paywall mechanics, retention | `references/in-app-growth.md` |
+| Widgets, Live Activities, App Intents, Controls | `references/platform-surfaces.md` |
+| Search Ads arithmetic, and getting featured | `references/paid-acquisition-and-editorial.md` |
+| Statistics in this field that are invented | `references/numbers-that-are-not-real.md` |
+
+## HOW TO READ A NUMBER IN THIS FIELD
+
+App-growth content is an SEO battleground and a lot of its statistics are
+laundered: a vendor's 2017 sample becomes "the industry average", or a
+figure is attributed to a source that never published it. Several of the
+most-repeated claims about widgets in particular were traced to pages
+containing no figures at all.
+
+Before planning around any number: find the primary source, check the
+sample and the year, and check whether whoever published it sells the
+thing the number recommends. `references/numbers-that-are-not-real.md`
+lists the ones already chased down.
 
 ## SOURCES
 
@@ -320,4 +353,8 @@ worrying about a viral loop they were never going to have.
 - RevenueCat, *State of Subscription Apps 2026*, 115,000 apps and $16B of revenue
 - Apple, *Custom product pages*, developer.apple.com/app-store/custom-product-pages
 - Nikita Bier, for the Network shape. See the `nikita-bier-consumer-apps` skill
-- David Barnard / RevenueCat and Appfigures, on indie and utility app growth
+- Apple, *Getting featured*, *Discoverability*, and the Human Interface Guidelines
+- AppTweak, for Search Ads cost benchmarks. Use medians, never the global average
+- Curtis Herbert on Slopes, Ben Dodson on Music Library Tracker, Lux on Halide, and Charlie Chapman on Dark Noise: the indie developers who actually publish their numbers
+- David Barnard, Phil Carter and Reid DeRamus on pricing and paywalls
+- Ariel Michaeli / Appfigures on the ranking algorithm and the case against paid-upfront

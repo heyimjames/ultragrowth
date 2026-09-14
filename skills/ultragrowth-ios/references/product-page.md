@@ -38,11 +38,35 @@ enable it. Test the first screenshot before anything else.
 
 ## Ratings
 
-- Zero ratings costs about **two thirds** of conversions
-- Target 4.4+
-- `SKStoreReviewController`, at a moment of success. After the thing
-  worked, not on launch and never during onboarding
-- Three prompts per user per year is Apple's cap. Spend them on people
-  having a good time
-- Reply to every one-star. The reply is public and permanent and is read
-  by the next person deciding
+- Zero ratings costs about **two thirds** of conversions. Target 4.4+.
+- Prompt at a moment of success. Apple's own warning: "people may even be
+  more likely to leave negative feedback if they feel an app is asking
+  for a rating before they get a chance to use it."
+- **StoreKit caps it at three prompts per person per year**, and the cap
+  is enforced by the system whether or not you know about it.
+- **The trap that wastes your testing**: the request is a **silent no-op
+  in TestFlight** and **always fires in debug**. So it never appears
+  where you test, and always appears where you develop, which is the
+  wrong way round. Instrument "attempted" separately from "shown" or you
+  cannot tell what happened in the wild.
+- Apple's HIG also asks for **a week or two between requests**, which
+  almost nobody implements.
+- **The native prompt is a rating machine and an anti-review machine.**
+  One study: 13.5% of prompted people left a rating, averaging 4.7 stars,
+  and **0.07% left a written review**. One-star raters wrote reviews at
+  12.2%; five-star raters at 0.05%. So the prompt lifts your average and
+  will not fill your page with words, and the words you do get skew
+  angry. Both facts are useful and neither is obvious.
+- **Reply to reviews.** Replies are retroactive to any review ever left,
+  and Apple notifies the reviewer with an option to update their rating.
+  Only **12% of Productivity apps reply**, against 51% in Finance, so it
+  is a cheap differentiator as well as the right thing.
+- **Never reset your summary rating** as a small app. It does not remove
+  written reviews, it stamps a "recently reset" notice on your page, and
+  it cannot be undone.
+- **Ratings are per-territory.** A US and a UK visitor see different
+  averages for the same app.
+- The governing guideline is **5.6.1**, which disallows custom review
+  prompts. Gating a feature behind a review is **3.2.2(x)**. Manipulating
+  ratings is **3.2.2**, and the penalty is expulsion from the Developer
+  Program.
