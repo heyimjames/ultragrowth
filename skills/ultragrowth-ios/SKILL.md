@@ -62,6 +62,28 @@ because using it well does not require anybody else. Stop looking for one.
 with no ad budget, that is not one channel among several. It is the
 channel, and everything else is a rounding error until it is working.
 
+### Before any of it: you probably cannot edit the fields
+
+Keywords, subtitle, name and screenshots hang off an App Store **version**
+and are only writable while that version is in `PREPARE_FOR_SUBMISSION`.
+If your app is live and nothing is queued, every write is refused:
+
+```
+Attribute 'keywords' cannot be edited at this time
+```
+
+ASO is therefore gated on your release cycle. You cannot decide on a
+Tuesday to fix your keywords; you fix them as part of the next version,
+and they go through review with the build. Keep the strings staged,
+rule-checked and counted, so that when a version opens it is a paste
+rather than an afternoon.
+
+And on a multi-platform app, the name and subtitle live on an app-wide
+record. If **any** platform is in review it is holding that record, and
+editing the subtitle folds a metadata change into that review. See
+`references/operating-the-listing.md`, which is the half of ASO nobody
+writes down.
+
 ### The search stack, in the order it pays
 
 1. **Name and subtitle.** Apple indexes both. The name is your strongest
@@ -74,8 +96,15 @@ channel, and everything else is a rounding error until it is working.
 3. **Category.** Pick the one where you can plausibly rank top 10, not
    the one that describes you best. Ranking 3rd in a small category beats
    80th in a big one.
-4. **Localisation.** Even English-only apps should fill in en-GB, en-AU
-   and en-CA keyword fields; they are separate indexes and mostly empty.
+4. **Localisation.** Even English-only apps should fill in the en-GB
+   keyword field: separate index, usually empty, and it is the fallback
+   for Ireland, India, Singapore, South Africa and New Zealand as well as
+   the UK. en-AU and en-CA cover one country each.
+
+   The cost nobody mentions: **screenshot sets hang off the version
+   localisation**, so every locale you add is a screenshot set you must
+   upload and then keep in step forever. Usually right to add en-GB only,
+   and the others only if the rank data justifies them.
 
 ### The product page is a conversion problem, not a decoration problem
 
@@ -92,6 +121,24 @@ the number to beat and most people never measure it.
   A screenshot of your UI tells somebody it is a screenshot of your UI.
 - **Product Page Optimization** is Apple's free A/B test, up to three
   treatments. Most developers never turn it on.
+
+### Check where you rank before writing keywords, not after
+
+You are not "ranked". You are ranked **for a term, in a storefront**, and
+the two disagree more than people expect. A real table from a six-day-old
+app:
+
+| Term | US | GB |
+| --- | --- | --- |
+| split flap | 37 | 15 |
+| the brand name | not found | 16 |
+| departure board | not found | 93 |
+| flip clock | not found | not found |
+
+The last row is the most valuable thing on the page: an uncontested term
+the app plainly deserved and was not competing for. **The gaps are the
+brief.** Run this first, and write the keyword field against what it
+tells you rather than against a list of synonyms.
 
 ### Ratings are a conversion multiplier, not a vanity metric
 
@@ -219,6 +266,7 @@ worrying about a viral loop they were never going to have.
 | Topic | File |
 | --- | --- |
 | Store search, keywords, category, locales | `references/app-store-search.md` |
+| Actually changing the listing, and why you cannot | `references/operating-the-listing.md` |
 | Product page, screenshots, CPPs, PPO | `references/product-page.md` |
 | Pricing, paywalls, trials | `references/pricing.md` |
 

@@ -34,11 +34,15 @@ and page 4 does not exist.
 
 ## Locales are separate indexes
 
-English-only apps should still fill **en-GB, en-AU, en-CA** keyword
-fields. They are separate, they are usually empty, and it is the single
-cheapest ASO work available. Also note the localisation Apple applies by
-default: en-GB users see the en-GB listing if it exists and the en-US one
-if it does not.
+English-only apps should still fill the **en-GB** keyword field. It is a
+separate index, it is usually empty, and it is the fallback for most
+non-US English storefronts: Ireland, India, Singapore, South Africa and
+New Zealand, not only the UK. en-AU and en-CA cover one country each.
+
+The cost, which the usual advice omits: screenshot sets hang off the
+version localisation, so each locale you add is a screenshot set you must
+upload and keep in step. Add en-GB, then add others only if the rank data
+justifies the maintenance.
 
 ## Measuring it
 

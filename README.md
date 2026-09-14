@@ -61,6 +61,21 @@ Numbers rather than vibes. Every benchmark is cited:
 That last one is the whole argument. Being good is table stakes now.
 Being *findable* is the work.
 
+## And the half nobody writes down
+
+Every ASO guide tells you what to put in the fields. None of them mention
+that most of the time you cannot put anything in the fields at all:
+keywords and subtitles are only writable while a version sits in
+`PREPARE_FOR_SUBMISSION`, so ASO is gated on your release cycle rather
+than on when you feel like doing it.
+
+`references/operating-the-listing.md` is that half. How to probe whether
+a field is writable without risking anything. Why a subtitle change on a
+multi-platform app can fold itself into a review happening on a platform
+you were not thinking about. Why adding a locale costs you a screenshot
+set forever. And why "you are ranked" is the wrong sentence, because you
+are ranked for a term, in a storefront, and the two disagree.
+
 ## Install
 
 ```bash
