@@ -1,0 +1,93 @@
+# ultragrowth
+
+A growth playbook for iOS apps that are **not** viral teen social apps.
+
+<p align="center">
+  <a href="#install"><img src="https://img.shields.io/badge/install-npx%20skills%20add%20heyimjames%2Fultragrowth-000?style=for-the-badge&logo=npm&logoColor=white" alt="Install with npx skills"></a>
+  <a href="https://github.com/heyimjames/ultragrowth/stargazers"><img src="https://img.shields.io/github/stars/heyimjames/ultragrowth?style=for-the-badge&color=000&logo=github&logoColor=white&label=Star" alt="Star this repo"></a>
+</p>
+
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-000?style=flat-square" alt="MIT"></a>
+</p>
+
+---
+
+## The problem this exists for
+
+Almost all published app-growth advice is about one kind of app: a free
+social product for teenagers, whose value comes from other people being
+on it. That advice is excellent, and it is *specific*.
+
+Applied to a paid utility, a professional tool, or a game, it is not
+merely useless. It is actively misleading, because it tells you to
+optimise a loop your product does not have. You end up building invite
+mechanics nobody uses while the thing that would actually work — being
+findable in a search — goes untouched.
+
+## The idea
+
+Brian Balfour's point, which this hangs on: you need **product-channel
+fit**, and the channel is not a free choice. It follows from how people
+naturally discover, evaluate and buy a thing like yours.
+
+So the skill starts with one question:
+
+> **Where does the value come from, the first time somebody opens it?**
+
+| Answer | Shape | Growth actually comes from |
+| --- | --- | --- |
+| Other people already being there | Network | Invitations |
+| It doing a job, alone, immediately | **Utility** | App Store search, overwhelmingly |
+| A library to read or watch | Content | The open web |
+| Making somebody better at their work | Professional | The trade's own channels |
+| Play | Game | Paid acquisition and creators |
+
+Everything after that is organised by shape, with the tells for having
+guessed wrong.
+
+## What is in it
+
+Numbers rather than vibes. Every benchmark is cited:
+
+- The default App Store product page converts at about **1.6%**
+- Custom Product Pages lift that by around **156%**, and you get **70** of them
+- **65%+** of downloads begin with a store search
+- Zero ratings costs roughly **two thirds** of your conversions
+- Hard paywalls convert about **5x** freemium, with similar long-term retention
+- Median subscription app grew MRR **5.3%** year on year. The top decile grew **306%**
+- New subscription apps launched per month went from ~2,000 to **~15,000** in three years
+
+That last one is the whole argument. Being good is table stakes now.
+Being *findable* is the work.
+
+## Install
+
+```bash
+npx skills add heyimjames/ultragrowth
+```
+
+Or copy `skills/ultragrowth-ios/` into `~/.claude/skills/`.
+
+## Use
+
+Ask any question about growing an app and the skill will work out which
+shape you have before answering. Or invoke it directly:
+
+```
+/ultragrowth-ios
+```
+
+It is most useful pointed at a real listing: give it your App Store ID
+and ask what is wrong.
+
+## Sources
+
+- Brian Balfour, [*Four Fits for $100M+ Growth*](https://brianbalfour.com/four-fits-growth-framework)
+- RevenueCat, [*State of Subscription Apps 2026*](https://www.revenuecat.com/state-of-subscription-apps) — 115,000 apps, $16B revenue
+- Apple, [*Custom product pages*](https://developer.apple.com/app-store/custom-product-pages)
+- Nikita Bier, for the Network shape, which this skill deliberately does not duplicate
+
+## Licence
+
+MIT. Do what you like with it.
