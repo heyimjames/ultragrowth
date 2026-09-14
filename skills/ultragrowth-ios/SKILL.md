@@ -196,6 +196,7 @@ Five of them, in rough order of value:
 | **The link that works without the app** | A shared link that renders something real for somebody who has installed nothing is worth an order of magnitude more than one that opens the store |
 | **The multiplayer edge** | The single place a second person is natural. Usually small, usually the only loop the product has |
 | **The other device** | The same person on a Mac and a Watch. Not new revenue, but retention that looks like growth and it seeds the visible surface elsewhere |
+| **The secret** | Unproven, and worth thinking about. A hidden feature is one of very few things people voluntarily tell each other about a utility. Nobody says "get this scanner app"; plenty of people say "tap the version number five times". Android has been getting free word of mouth out of seven taps on a build number for fifteen years |
 
 If your app produces nothing anybody else ever sees, you do not have a
 loop. Stop looking for one and go and be very good at search instead.

@@ -64,9 +64,20 @@ transcripts, and Patreon or member-only show notes. Any developer saying
 
 **2. Share sheet and export-to-install numbers.** What share of a
 utility's installs came from somebody receiving an exported artefact.
-Same sources. Note that App Store Connect has no share-extension-source
-dimension, so anybody with a number built their own attribution and will
-probably say so.
+Same sources. App Store Connect has no share-extension-source dimension,
+so anybody with a number built their own attribution and will probably
+say how. Specifically worth chasing:
+
+- Apps whose main input is the share sheet (read-later, save-links,
+  clipboard, screenshot tools) and whether any has published where their
+  installs come from
+- Whether a **watermark or a "made with" mark on an export** measurably
+  drives installs, and at what cost in resentment. Everyone has an
+  opinion; find somebody who measured
+- **App Clips** as the "value before install" version of this, which has
+  been shipping for five years with almost no published results
+- Whether **Universal Links** versus a bare App Store link changes
+  install rate for a shared artefact
 
 **3. Activation rates for utilities.** Install to first successful use,
 and what moved it. Two firsthand numbers exist so far. More would make
@@ -77,11 +88,64 @@ before and after. The skill claims search is the channel for utilities
 and currently supports that with Apple's own 65% figure rather than with
 a developer's story.
 
-**5. Non-English and non-US markets.** Almost all of this research is
+**5. Custom Product Pages, from developers rather than vendors.** Every
+CPP number in circulation, including the ones in this skill, comes from a
+company that sells ASO tooling. Find a named developer who shipped CPPs
+and published their own before and after. Also: does anybody use more
+than a handful of the 70 available, and what happens to the ones you make
+and forget?
+
+**6. Control Centre controls and the Action Button.** Two years after
+launch there is **zero public telemetry** on controls from Apple, any
+vendor, or any developer, and Apple's own attention is visibly receding.
+So the questions are:
+
+- Has **any** developer published a control adoption number, even an
+  order of magnitude
+- Has anybody measured whether shipping a control changed anything
+- Same for the Action Button: is there a single published figure on how
+  many users assign a third-party app to it
+- If the answer to all of the above is nothing, say so clearly. A
+  confident "nobody knows" is a useful thing for a skill to be able to
+  say about a feature people keep being told to build
+
+**7. Hidden features and easter eggs as a distribution mechanism.** This
+is the most speculative item here and possibly the most interesting,
+because almost nobody treats it as growth.
+
+The pattern: a feature you can only find by being told about it. Tapping
+a version number several times. A long press that does something
+unexpected. A konami code. Android made this canonical by hiding
+developer options behind seven taps on the build number, and people still
+tell each other how to do it fifteen years later.
+
+The question is whether that is a real loop for a small app. It is
+plausible that it is: a secret is one of very few things people
+voluntarily tell other people about a utility, and "did you know if
+you..." is word of mouth that costs nothing and asks nothing.
+
+What to look for:
+
+- Any developer who has said a hidden feature drove discovery, shares,
+  or a Reddit or X thread that produced installs
+- Apps where an easter egg was itself covered by press
+- Whether anything is measurable at all, given the thing is by definition
+  undiscoverable to analytics until somebody finds it
+- The counter-argument, honestly: is there evidence that hidden features
+  mostly go unfound and are therefore wasted effort
+- Adjacent and better documented: **App Store Connect offer codes and
+  promo codes shared in communities**, which are the sanctioned version
+  of the same "insider" feeling
+
+Expect this one to come back thin. If it does, say so, and say what the
+strongest anecdote you found was, because a good anecdote is worth having
+even when there is no number behind it.
+
+**8. Non-English and non-US markets.** Almost all of this research is
 US and UK. Any firsthand account of localisation producing measurable
 growth, and what it cost to maintain.
 
-**6. Recent App Store policy changes that affect discovery**, from 2026
+**9. Recent App Store policy changes that affect discovery**, from 2026
 onward: Apple Intelligence and Siri app-schema domains, App Store Tags in
 practice, the two-ads-per-query change, anything about apps being removed
 for inactivity. Prefer Apple's own words and developers' observed

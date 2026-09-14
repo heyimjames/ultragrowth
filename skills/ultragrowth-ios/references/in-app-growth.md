@@ -91,6 +91,31 @@ frequently cannot be bothered to do.
 
 ---
 
+### The sixth, which is unproven and worth thinking about anyway
+
+**A secret is one of very few things people voluntarily tell each other
+about a utility.**
+
+Nobody says "you should get this scanner app". Plenty of people say "did
+you know if you tap the version number five times". Android made this
+canonical by hiding developer options behind seven taps on the build
+number, and people are still telling each other how to do it fifteen
+years later, entirely unprompted, at no cost to Google.
+
+The mechanism is real: a hidden feature converts a user into somebody
+with a piece of information worth passing on, which is exactly what an
+invitation is, minus the asking.
+
+**Nobody has measured it**, and by its nature it is awkward to measure:
+the thing is undiscoverable to your analytics until somebody finds it,
+and the telling happens somewhere you cannot see. Treat this as a reason
+to make something delightful rather than as a growth tactic with a
+number behind it.
+
+If you do it: the secret has to be **findable by a curious person and
+invisible to everybody else**, it should reward rather than merely
+unlock, and it must never be the only route to something people need.
+
 ## ACTIVATION: THE NUMBER MOST SMALL APPS NEVER DEFINE
 
 Between "downloaded" and "user" there is a specific event, and if you
