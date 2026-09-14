@@ -61,6 +61,12 @@ custom product pages and my conversion went from X to Y."
 The numbers may well be right. They have not been independently confirmed
 by anybody without a product to sell.
 
+The only 2026 commentary from a named practitioner rather than a vendor
+is Thomas Petit noting that custom product page headers still do not
+support full A/B testing flexibility: "it's not the full liberty we have
+now, it's somewhere in between." Useful as a caution that the feature is
+less finished than the case studies imply.
+
 ## Also still missing
 
 - Any firsthand account of the **Featuring Nominations form** producing a
